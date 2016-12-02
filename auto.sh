@@ -1,8 +1,8 @@
 set -e
 
-start_time="2016-11-25 00:00"
-end_time="2016-11-26 00:00"
-log_folder="2016-11-25"
+start_time="2016-12-02 00:00"
+end_time="2016-12-03 00:00"
+log_folder="2016-12-03"
 
 # fetch data
 python fetch_users.py
