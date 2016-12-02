@@ -1,0 +1,78 @@
+﻿[
+    { 
+        "id" : "1",
+        "period" : "新手关",
+        "memory" : [
+                        {"name" : "0-50", "value" : 0},
+                        {"name" : "50-100", "value" : 0},
+                        {"name" : "100-150", "value" : 0},
+                        {"name" : "150-200", "value" : 0},
+                        {"name" : "200-250", "value" : 9},
+                        {"name" : "250-300", "value" : 21},
+                        {"name" : "300-350", "value" : 2},
+                        {"name" : "350-400", "value" : 3},
+                        {"name" : "400-450", "value" : 0},
+                        {"name" : "450-500", "value" : 0},
+                        {"name" : "500-550", "value" : 0},
+                        {"name" : "550-600", "value" : 0},
+                        {"name" : "600以上", "value" : 1}
+                    ]
+    },
+    { 
+        "id" : "2",
+        "period" : "主城",
+        "memory" : [
+                        {"name" : "0-50", "value" : 0},
+                        {"name" : "50-100", "value" : 0},
+                        {"name" : "100-150", "value" : 0},
+                        {"name" : "150-200", "value" : 0},
+                        {"name" : "200-250", "value" : 6},
+                        {"name" : "250-300", "value" : 19},
+                        {"name" : "300-350", "value" : 18},
+                        {"name" : "350-400", "value" : 7},
+                        {"name" : "400-450", "value" : 1},
+                        {"name" : "450-500", "value" : 0},
+                        {"name" : "500-550", "value" : 0},
+                        {"name" : "550-600", "value" : 0},
+                        {"name" : "600以上", "value" : 1}
+                    ]
+    },
+    { 
+        "id" : "3",
+        "period" : "世界地图",
+        "memory" : [
+                        {"name" : "0-50", "value" : 0},
+                        {"name" : "50-100", "value" : 0},
+                        {"name" : "100-150", "value" : 0},
+                        {"name" : "150-200", "value" : 0},
+                        {"name" : "200-250", "value" : 0},
+                        {"name" : "250-300", "value" : 0},
+                        {"name" : "300-350", "value" : 3},
+                        {"name" : "350-400", "value" : 22},
+                        {"name" : "400-450", "value" : 10},
+                        {"name" : "450-500", "value" : 7},
+                        {"name" : "500-550", "value" : 1},
+                        {"name" : "550-600", "value" : 0},
+                        {"name" : "600以上", "value" : 1}
+                    ]
+    },
+    { 
+        "id" : "4",
+        "period" : "战斗",
+        "memory" : [
+                        {"name" : "0-50", "value" : 0},
+                        {"name" : "50-100", "value" : 0},
+                        {"name" : "100-150", "value" : 0},
+                        {"name" : "150-200", "value" : 0},
+                        {"name" : "200-250", "value" : 0},
+                        {"name" : "250-300", "value" : 0},
+                        {"name" : "300-350", "value" : 10},
+                        {"name" : "350-400", "value" : 18},
+                        {"name" : "400-450", "value" : 12},
+                        {"name" : "450-500", "value" : 0},
+                        {"name" : "500-550", "value" : 0},
+                        {"name" : "550-600", "value" : 0},
+                        {"name" : "600以上", "value" : 1}
+                    ]
+    }
+]

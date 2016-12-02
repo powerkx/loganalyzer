@@ -1,0 +1,1 @@
+[{"id":1,"progress":"跳转快玩用户数","value":32.0,"percentage":"100.00%"},{"id":2,"progress":"跳转新用户数（创建时间在区间内）","value":0.0,"percentage":"0.00%"},{"id":3,"progress":"跳转老用户数（创建时间在区间外）","value":16.0,"percentage":"50.00%"},{"id":4,"progress":"有日志的丢失用户（未创角）","value":15.0,"percentage":"46.88%"},{"id":5,"progress":"没有日志的丢失用户","value":1.0,"percentage":"3.12%"}]

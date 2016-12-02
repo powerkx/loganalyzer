@@ -1,0 +1,78 @@
+﻿[
+    { 
+        "id" : "1",
+        "period" : "新手关",
+        "fps" : [
+                        {"name" : "0-5", "value" : 3},
+                        {"name" : "5-10", "value" : 4},
+                        {"name" : "10-15", "value" : 6},
+                        {"name" : "15-20", "value" : 4},
+                        {"name" : "20-25", "value" : 4},
+                        {"name" : "25-30", "value" : 4},
+                        {"name" : "30-35", "value" : 3},
+                        {"name" : "35-40", "value" : 2},
+                        {"name" : "40-45", "value" : 3},
+                        {"name" : "45-50", "value" : 1},
+                        {"name" : "50-55", "value" : 1},
+                        {"name" : "55-60", "value" : 1},
+                        {"name" : "60以上", "value" : 0}
+                    ]
+    },
+    { 
+        "id" : "2",
+        "period" : "主城",
+        "fps" : [
+                        {"name" : "0-5", "value" : 2},
+                        {"name" : "5-10", "value" : 2},
+                        {"name" : "10-15", "value" : 2},
+                        {"name" : "15-20", "value" : 2},
+                        {"name" : "20-25", "value" : 2},
+                        {"name" : "25-30", "value" : 2},
+                        {"name" : "30-35", "value" : 2},
+                        {"name" : "35-40", "value" : 2},
+                        {"name" : "40-45", "value" : 2},
+                        {"name" : "45-50", "value" : 2},
+                        {"name" : "50-55", "value" : 2},
+                        {"name" : "55-60", "value" : 2},
+                        {"name" : "60以上", "value" : 2}
+                    ]
+    },
+    { 
+        "id" : "3",
+        "period" : "世界地图",
+        "fps" : [
+                        {"name" : "0-5", "value" : 0},
+                        {"name" : "5-10", "value" : 0},
+                        {"name" : "10-15", "value" : 0},
+                        {"name" : "15-20", "value" : 0},
+                        {"name" : "20-25", "value" : 0},
+                        {"name" : "25-30", "value" : 0},
+                        {"name" : "30-35", "value" : 0},
+                        {"name" : "35-40", "value" : 0},
+                        {"name" : "40-45", "value" : 0},
+                        {"name" : "45-50", "value" : 0},
+                        {"name" : "50-55", "value" : 0},
+                        {"name" : "55-60", "value" : 0},
+                        {"name" : "60以上", "value" : 0}
+                    ]
+    },
+    { 
+        "id" : "4",
+        "period" : "战斗",
+        "fps" : [
+                        {"name" : "0-5", "value" : 1},
+                        {"name" : "5-10", "value" : 0},
+                        {"name" : "10-15", "value" : 1},
+                        {"name" : "15-20", "value" : 0},
+                        {"name" : "20-25", "value" : 6},
+                        {"name" : "25-30", "value" : 5},
+                        {"name" : "30-35", "value" : 5},
+                        {"name" : "35-40", "value" : 9},
+                        {"name" : "40-45", "value" : 6},
+                        {"name" : "45-50", "value" : 4},
+                        {"name" : "50-55", "value" : 2},
+                        {"name" : "55-60", "value" : 0},
+                        {"name" : "60以上", "value" : 2}
+                    ]
+    }
+]

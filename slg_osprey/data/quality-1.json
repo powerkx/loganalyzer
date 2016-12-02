@@ -1,0 +1,42 @@
+﻿[
+    { 
+        "id" : "1",
+        "period" : "新手关",
+        "quality" : [
+                        {"name" : "流畅", "value" : 10},
+                        {"name" : "标准", "value" : 20},
+                        {"name" : "优质", "value" : 30},
+                        {"name" : "精美", "value" : 40}
+                    ]
+    },
+    { 
+        "id" : "2",
+        "period" : "主城",
+        "quality" : [
+                        {"name" : "流畅", "value" : 1},
+                        {"name" : "标准", "value" : 2},
+                        {"name" : "优质", "value" : 3},
+                        {"name" : "精美", "value" : 4}
+                    ]
+    },
+    { 
+        "id" : "3",
+        "period" : "世界地图",
+        "quality" : [
+                        {"name" : "流畅", "value" : 0},
+                        {"name" : "标准", "value" : 0},
+                        {"name" : "优质", "value" : 0},
+                        {"name" : "精美", "value" : 0}
+                    ]
+    },
+    { 
+        "id" : "4",
+        "period" : "战斗",
+        "quality" : [
+                        {"name" : "流畅", "value" : 5},
+                        {"name" : "标准", "value" : 5},
+                        {"name" : "优质", "value" : 5},
+                        {"name" : "精美", "value" : 5}
+                    ]
+    }
+]

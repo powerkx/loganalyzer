@@ -1,0 +1,722 @@
+[
+    { 
+        "id" : "1",
+        "event" : "跳转",
+        "value" : 52
+    },
+    {        
+        "id" : "2",
+        "event" : "html页面跳转完成，开始打开页面",
+        "value" : 47
+    },
+    {        
+        "id" : "3",
+        "event" : "html页面开始装载FirstLoad的swf",
+        "value" : 46
+    },
+    {        
+        "id" : "4",
+        "event" : "两条杠被添加到舞台上",
+        "value" : 40
+    },
+    {        
+        "id" : "5",
+        "event" : "两条杠开始加载",
+        "value" : 40
+    },
+    {        
+        "id" : "6",
+        "event" : "html页面开始装载主main的swf",
+        "value" : 38
+    },
+    {        
+        "id" : "7",
+        "event" : "0号文件全部完成，开始初始化主main",
+        "value" : 37
+    },
+    {        
+        "id" : "8",
+        "event" : "主main.swf被添加到舞台上",
+        "value" : 36
+    },
+    {        
+        "id" : "9",
+        "event" : "开始初始化Main",
+        "value" : 36
+    },
+    {        
+        "id" : "10",
+        "event" : "ccEnable",
+        "value" : 36
+    },
+    {        
+        "id" : "11",
+        "event" : "initMain",
+        "value" : 36
+    },
+    {        
+        "id" : "12",
+        "event" : "开始初始化多线程工具",
+        "value" : 36
+    },
+    {        
+        "id" : "13",
+        "event" : "多线程工具初始化完毕",
+        "value" : 36
+    },
+    {        
+        "id" : "14",
+        "event" : "render读取结束",
+        "value" : 35
+    },
+    {        
+        "id" : "15",
+        "event" : "部队显示出来",
+        "value" : 20
+    },
+    {        
+        "id" : "16",
+        "event" : "故事战斗开始第10130关",
+        "value" : 2
+    },
+    { 
+        "id" : "1",
+        "event" : "跳转",
+        "value" : 52
+    },
+    {        
+        "id" : "2",
+        "event" : "html页面跳转完成，开始打开页面",
+        "value" : 47
+    },
+    {        
+        "id" : "3",
+        "event" : "html页面开始装载FirstLoad的swf",
+        "value" : 46
+    },
+    {        
+        "id" : "4",
+        "event" : "两条杠被添加到舞台上",
+        "value" : 40
+    },
+    {        
+        "id" : "5",
+        "event" : "两条杠开始加载",
+        "value" : 40
+    },
+    {        
+        "id" : "6",
+        "event" : "html页面开始装载主main的swf",
+        "value" : 38
+    },
+    {        
+        "id" : "7",
+        "event" : "0号文件全部完成，开始初始化主main",
+        "value" : 37
+    },
+    {        
+        "id" : "8",
+        "event" : "主main.swf被添加到舞台上",
+        "value" : 36
+    },
+    {        
+        "id" : "9",
+        "event" : "开始初始化Main",
+        "value" : 36
+    },
+    {        
+        "id" : "10",
+        "event" : "ccEnable",
+        "value" : 36
+    },
+    {        
+        "id" : "11",
+        "event" : "initMain",
+        "value" : 36
+    },
+    {        
+        "id" : "12",
+        "event" : "开始初始化多线程工具",
+        "value" : 36
+    },
+    {        
+        "id" : "13",
+        "event" : "多线程工具初始化完毕",
+        "value" : 36
+    },
+    {        
+        "id" : "14",
+        "event" : "render读取结束",
+        "value" : 35
+    },
+    {        
+        "id" : "15",
+        "event" : "部队显示出来",
+        "value" : 20
+    },
+    {        
+        "id" : "16",
+        "event" : "故事战斗开始第10130关",
+        "value" : 2
+    },
+    { 
+        "id" : "1",
+        "event" : "跳转",
+        "value" : 52
+    },
+    {        
+        "id" : "2",
+        "event" : "html页面跳转完成，开始打开页面",
+        "value" : 47
+    },
+    {        
+        "id" : "3",
+        "event" : "html页面开始装载FirstLoad的swf",
+        "value" : 46
+    },
+    {        
+        "id" : "4",
+        "event" : "两条杠被添加到舞台上",
+        "value" : 40
+    },
+    {        
+        "id" : "5",
+        "event" : "两条杠开始加载",
+        "value" : 40
+    },
+    {        
+        "id" : "6",
+        "event" : "html页面开始装载主main的swf",
+        "value" : 38
+    },
+    {        
+        "id" : "7",
+        "event" : "0号文件全部完成，开始初始化主main",
+        "value" : 37
+    },
+    {        
+        "id" : "8",
+        "event" : "主main.swf被添加到舞台上",
+        "value" : 36
+    },
+    {        
+        "id" : "9",
+        "event" : "开始初始化Main",
+        "value" : 36
+    },
+    {        
+        "id" : "10",
+        "event" : "ccEnable",
+        "value" : 36
+    },
+    {        
+        "id" : "11",
+        "event" : "initMain",
+        "value" : 36
+    },
+    {        
+        "id" : "12",
+        "event" : "开始初始化多线程工具",
+        "value" : 36
+    },
+    {        
+        "id" : "13",
+        "event" : "多线程工具初始化完毕",
+        "value" : 36
+    },
+    {        
+        "id" : "14",
+        "event" : "render读取结束",
+        "value" : 35
+    },
+    {        
+        "id" : "15",
+        "event" : "部队显示出来",
+        "value" : 20
+    },
+    {        
+        "id" : "16",
+        "event" : "故事战斗开始第10130关",
+        "value" : 2
+    },
+    { 
+        "id" : "1",
+        "event" : "跳转",
+        "value" : 52
+    },
+    {        
+        "id" : "2",
+        "event" : "html页面跳转完成，开始打开页面",
+        "value" : 47
+    },
+    {        
+        "id" : "3",
+        "event" : "html页面开始装载FirstLoad的swf",
+        "value" : 46
+    },
+    {        
+        "id" : "4",
+        "event" : "两条杠被添加到舞台上",
+        "value" : 40
+    },
+    {        
+        "id" : "5",
+        "event" : "两条杠开始加载",
+        "value" : 40
+    },
+    {        
+        "id" : "6",
+        "event" : "html页面开始装载主main的swf",
+        "value" : 38
+    },
+    {        
+        "id" : "7",
+        "event" : "0号文件全部完成，开始初始化主main",
+        "value" : 37
+    },
+    {        
+        "id" : "8",
+        "event" : "主main.swf被添加到舞台上",
+        "value" : 36
+    },
+    {        
+        "id" : "9",
+        "event" : "开始初始化Main",
+        "value" : 36
+    },
+    {        
+        "id" : "10",
+        "event" : "ccEnable",
+        "value" : 36
+    },
+    {        
+        "id" : "11",
+        "event" : "initMain",
+        "value" : 36
+    },
+    {        
+        "id" : "12",
+        "event" : "开始初始化多线程工具",
+        "value" : 36
+    },
+    {        
+        "id" : "13",
+        "event" : "多线程工具初始化完毕",
+        "value" : 36
+    },
+    {        
+        "id" : "14",
+        "event" : "render读取结束",
+        "value" : 35
+    },
+    {        
+        "id" : "15",
+        "event" : "部队显示出来",
+        "value" : 20
+    },
+    {        
+        "id" : "16",
+        "event" : "故事战斗开始第10130关",
+        "value" : 2
+    },
+    { 
+        "id" : "1",
+        "event" : "跳转",
+        "value" : 52
+    },
+    {        
+        "id" : "2",
+        "event" : "html页面跳转完成，开始打开页面",
+        "value" : 47
+    },
+    {        
+        "id" : "3",
+        "event" : "html页面开始装载FirstLoad的swf",
+        "value" : 46
+    },
+    {        
+        "id" : "4",
+        "event" : "两条杠被添加到舞台上",
+        "value" : 40
+    },
+    {        
+        "id" : "5",
+        "event" : "两条杠开始加载",
+        "value" : 40
+    },
+    {        
+        "id" : "6",
+        "event" : "html页面开始装载主main的swf",
+        "value" : 38
+    },
+    {        
+        "id" : "7",
+        "event" : "0号文件全部完成，开始初始化主main",
+        "value" : 37
+    },
+    {        
+        "id" : "8",
+        "event" : "主main.swf被添加到舞台上",
+        "value" : 36
+    },
+    {        
+        "id" : "9",
+        "event" : "开始初始化Main",
+        "value" : 36
+    },
+    {        
+        "id" : "10",
+        "event" : "ccEnable",
+        "value" : 36
+    },
+    {        
+        "id" : "11",
+        "event" : "initMain",
+        "value" : 36
+    },
+    {        
+        "id" : "12",
+        "event" : "开始初始化多线程工具",
+        "value" : 36
+    },
+    {        
+        "id" : "13",
+        "event" : "多线程工具初始化完毕",
+        "value" : 36
+    },
+    {        
+        "id" : "14",
+        "event" : "render读取结束",
+        "value" : 35
+    },
+    {        
+        "id" : "15",
+        "event" : "部队显示出来",
+        "value" : 20
+    },
+    {        
+        "id" : "16",
+        "event" : "故事战斗开始第10130关",
+        "value" : 2
+    },
+    { 
+        "id" : "1",
+        "event" : "跳转",
+        "value" : 52
+    },
+    {        
+        "id" : "2",
+        "event" : "html页面跳转完成，开始打开页面",
+        "value" : 47
+    },
+    {        
+        "id" : "3",
+        "event" : "html页面开始装载FirstLoad的swf",
+        "value" : 46
+    },
+    {        
+        "id" : "4",
+        "event" : "两条杠被添加到舞台上",
+        "value" : 40
+    },
+    {        
+        "id" : "5",
+        "event" : "两条杠开始加载",
+        "value" : 40
+    },
+    {        
+        "id" : "6",
+        "event" : "html页面开始装载主main的swf",
+        "value" : 38
+    },
+    {        
+        "id" : "7",
+        "event" : "0号文件全部完成，开始初始化主main",
+        "value" : 37
+    },
+    {        
+        "id" : "8",
+        "event" : "主main.swf被添加到舞台上",
+        "value" : 36
+    },
+    {        
+        "id" : "9",
+        "event" : "开始初始化Main",
+        "value" : 36
+    },
+    {        
+        "id" : "10",
+        "event" : "ccEnable",
+        "value" : 36
+    },
+    {        
+        "id" : "11",
+        "event" : "initMain",
+        "value" : 36
+    },
+    {        
+        "id" : "12",
+        "event" : "开始初始化多线程工具",
+        "value" : 36
+    },
+    {        
+        "id" : "13",
+        "event" : "多线程工具初始化完毕",
+        "value" : 36
+    },
+    {        
+        "id" : "14",
+        "event" : "render读取结束",
+        "value" : 35
+    },
+    {        
+        "id" : "15",
+        "event" : "部队显示出来",
+        "value" : 20
+    },
+    {        
+        "id" : "16",
+        "event" : "故事战斗开始第10130关",
+        "value" : 2
+    },
+    { 
+        "id" : "1",
+        "event" : "跳转",
+        "value" : 52
+    },
+    {        
+        "id" : "2",
+        "event" : "html页面跳转完成，开始打开页面",
+        "value" : 47
+    },
+    {        
+        "id" : "3",
+        "event" : "html页面开始装载FirstLoad的swf",
+        "value" : 46
+    },
+    {        
+        "id" : "4",
+        "event" : "两条杠被添加到舞台上",
+        "value" : 40
+    },
+    {        
+        "id" : "5",
+        "event" : "两条杠开始加载",
+        "value" : 40
+    },
+    {        
+        "id" : "6",
+        "event" : "html页面开始装载主main的swf",
+        "value" : 38
+    },
+    {        
+        "id" : "7",
+        "event" : "0号文件全部完成，开始初始化主main",
+        "value" : 37
+    },
+    {        
+        "id" : "8",
+        "event" : "主main.swf被添加到舞台上",
+        "value" : 36
+    },
+    {        
+        "id" : "9",
+        "event" : "开始初始化Main",
+        "value" : 36
+    },
+    {        
+        "id" : "10",
+        "event" : "ccEnable",
+        "value" : 36
+    },
+    {        
+        "id" : "11",
+        "event" : "initMain",
+        "value" : 36
+    },
+    {        
+        "id" : "12",
+        "event" : "开始初始化多线程工具",
+        "value" : 36
+    },
+    {        
+        "id" : "13",
+        "event" : "多线程工具初始化完毕",
+        "value" : 36
+    },
+    {        
+        "id" : "14",
+        "event" : "render读取结束",
+        "value" : 35
+    },
+    {        
+        "id" : "15",
+        "event" : "部队显示出来",
+        "value" : 20
+    },
+    {        
+        "id" : "16",
+        "event" : "故事战斗开始第10130关",
+        "value" : 2
+    },
+    { 
+        "id" : "1",
+        "event" : "跳转",
+        "value" : 52
+    },
+    {        
+        "id" : "2",
+        "event" : "html页面跳转完成，开始打开页面",
+        "value" : 47
+    },
+    {        
+        "id" : "3",
+        "event" : "html页面开始装载FirstLoad的swf",
+        "value" : 46
+    },
+    {        
+        "id" : "4",
+        "event" : "两条杠被添加到舞台上",
+        "value" : 40
+    },
+    {        
+        "id" : "5",
+        "event" : "两条杠开始加载",
+        "value" : 40
+    },
+    {        
+        "id" : "6",
+        "event" : "html页面开始装载主main的swf",
+        "value" : 38
+    },
+    {        
+        "id" : "7",
+        "event" : "0号文件全部完成，开始初始化主main",
+        "value" : 37
+    },
+    {        
+        "id" : "8",
+        "event" : "主main.swf被添加到舞台上",
+        "value" : 36
+    },
+    {        
+        "id" : "9",
+        "event" : "开始初始化Main",
+        "value" : 36
+    },
+    {        
+        "id" : "10",
+        "event" : "ccEnable",
+        "value" : 36
+    },
+    {        
+        "id" : "11",
+        "event" : "initMain",
+        "value" : 36
+    },
+    {        
+        "id" : "12",
+        "event" : "开始初始化多线程工具",
+        "value" : 36
+    },
+    {        
+        "id" : "13",
+        "event" : "多线程工具初始化完毕",
+        "value" : 36
+    },
+    {        
+        "id" : "14",
+        "event" : "render读取结束",
+        "value" : 35
+    },
+    {        
+        "id" : "15",
+        "event" : "部队显示出来",
+        "value" : 20
+    },
+    {        
+        "id" : "16",
+        "event" : "故事战斗开始第10130关",
+        "value" : 2
+    },
+    { 
+        "id" : "1",
+        "event" : "跳转",
+        "value" : 52
+    },
+    {        
+        "id" : "2",
+        "event" : "html页面跳转完成，开始打开页面",
+        "value" : 47
+    },
+    {        
+        "id" : "3",
+        "event" : "html页面开始装载FirstLoad的swf",
+        "value" : 46
+    },
+    {        
+        "id" : "4",
+        "event" : "两条杠被添加到舞台上",
+        "value" : 40
+    },
+    {        
+        "id" : "5",
+        "event" : "两条杠开始加载",
+        "value" : 40
+    },
+    {        
+        "id" : "6",
+        "event" : "html页面开始装载主main的swf",
+        "value" : 38
+    },
+    {        
+        "id" : "7",
+        "event" : "0号文件全部完成，开始初始化主main",
+        "value" : 37
+    },
+    {        
+        "id" : "8",
+        "event" : "主main.swf被添加到舞台上",
+        "value" : 36
+    },
+    {        
+        "id" : "9",
+        "event" : "开始初始化Main",
+        "value" : 36
+    },
+    {        
+        "id" : "10",
+        "event" : "ccEnable",
+        "value" : 36
+    },
+    {        
+        "id" : "11",
+        "event" : "initMain",
+        "value" : 36
+    },
+    {        
+        "id" : "12",
+        "event" : "开始初始化多线程工具",
+        "value" : 36
+    },
+    {        
+        "id" : "13",
+        "event" : "多线程工具初始化完毕",
+        "value" : 36
+    },
+    {        
+        "id" : "14",
+        "event" : "render读取结束",
+        "value" : 35
+    },
+    {        
+        "id" : "15",
+        "event" : "部队显示出来",
+        "value" : 20
+    },
+    {        
+        "id" : "16",
+        "event" : "故事战斗开始第10130关",
+        "value" : 2
+    }
+]

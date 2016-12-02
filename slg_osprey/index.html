@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Slg Osprey Dashboard</title>
+    <link rel="stylesheet" href="res/jqwidgets/styles/jqx.base.css" type="text/css" />
+    
+    <!-- add the jQuery script -->
+    <script type="text/javascript" src="res/scripts/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="res/scripts/demos.js"></script>
+    
+    <!-- add the jQWidgets framework -->
+    <script type="text/javascript" src="res/jqwidgets/jqxcore.js"></script>
+    <script type="text/javascript" src="res/jqwidgets/jqxdraw.js"></script>
+    <script type="text/javascript" src="res/jqwidgets/jqxchart.core.js"></script>
+    <script type="text/javascript" src="res/jqwidgets/jqxdata.js"></script>
+    <script type="text/javascript" src="res/jqwidgets/jqxdatatable.js"></script> 
+    <script type="text/javascript" src="res/jqwidgets/jqxbuttons.js"></script>
+
+    <script type="text/javascript" src="res/jqwidgets/jqxnotification.js"></script>
+    <script type="text/javascript" src="res/jqwidgets/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="res/jqwidgets/jqxpanel.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/1-col-portfolio.css" rel="stylesheet">
+    
+    <!-- Pie Chart jQWidgets style -->
+    <link rel="stylesheet" href="res/jqwidgets/styles/jqx.darkblue.css" type="text/css" />
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var url = "data/users.json";
+            // prepare the data
+            var source =
+            {
+                dataType: "json",
+                dataFields: [
+                    { name: 'progress', type: 'string' },
+                    { name: 'value', type: 'string' },
+                    { name: 'percentage', type: 'string' }
+                ],
+                id: 'id',
+                url: url
+            };
+
+            var dataAdapter = new $.jqx.dataAdapter(source);
+            
+            // draw data table 
+            $("#dataTableEvent").jqxDataTable(
+            {
+                width: 400,
+                pageable: false,
+                //pagerButtonsCount: 10,
+                source: dataAdapter,
+                //columnsResize: true,
+                columns: [
+                  { text: '', dataField: 'progress', width: 260 },
+                  { text: '计数', dataField: 'value', width: 60 },
+                  { text: '百分比', dataField: 'percentage', width: 80 }
+              ]
+            });
+            
+            // show local data info
+            $(function(){
+            $("#update-info").load('data/update_info.txt');
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SLG Osprey Dashboard</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <ul id="myTab" class="nav nav-tabs">
+            <li class="active"><a href="#user-event" data-toggle="tab">进度统计</a></li>
+            <li><a href="#ccc" data-toggle="tab">兼容性统计报告</a></li>
+            <li><a href="#quality" data-toggle="tab">画质报告</a></li>
+            <li><a href="#fps" data-toggle="tab">帧率报告</a></li>
+            <li><a href="#memory" data-toggle="tab">内存报告</a></li>
+        </ul>
+        <hr>
+        <div id="update-info"></div>
+        <!-- /.row -->
+
+        <hr>
+    </div>
+    
+    <div class="container">
+        <div id="myTabContent" class="tab-content">
+        
+            <!-- 进度统计 -->
+            <div class="tab-pane fade in active" id="user-event">
+            
+                <!-- 进度表格 -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id='dataTableEvent'/>
+                        </div>
+                    </div>
+                </div>
+                
+                <br/>
+                
+                <!-- 进度柱状图（包含跳转） -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id='barChartEvent' style="width:1900px; height:500px;"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 进度柱状图（排除跳转） -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id='barChartEvent_iglk' style="width:1900px; height:500px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 画质报告 -->
+            <div class="tab-pane fade in active" id="quality">
+                <!-- 画质柱状图 -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id='barChartQuality' style="width:1140px; height:280px;"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 画质饼图 -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id='pieChartQuality_0' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id='pieChartQuality_1' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id='pieChartQuality_2' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id='pieChartQuality_3' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 帧率报告 -->
+            <div class="tab-pane fade in active" id="fps">
+                <!-- 帧率柱状图 -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id='barChartFps' style="width:1140px; height:280px;"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 帧率饼图 -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id='pieChartFps_0' style="width:260; height:380px; "/>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id='pieChartFps_1' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id='pieChartFps_2' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id='pieChartFps_3' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 内存报告 -->
+            <div class="tab-pane fade in active" id="memory">
+                <!-- 帧率柱状图 -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id='barChartMemory' style="width:1140px; height:280px;"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 帧率饼图 -->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id='pieChartMemory_0' style="width:260; height:380px; "/>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id='pieChartMemory_1' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id='pieChartMemory_2' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id='pieChartMemory_3' style="width:150; height:380px;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright QIFUN.COM All Rights Reserved
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <script src="dist/js/bootstrap.min.js"></script>
+
+    <!-- Draw Chart JavaScript Functions -->
+    <script type="text/javascript">drawChartsAndGrids();</script>
+
+</body>
+
+</html>
