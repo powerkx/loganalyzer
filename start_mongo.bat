@@ -1,0 +1,1 @@
+mongod --dbpath E:\plan\SLG\loganalyzer_export\mongodb-data\db

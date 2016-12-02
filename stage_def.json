@@ -1,0 +1,24 @@
+[
+{
+    "name" : "novice",
+    "enter" : "新手关进入",
+    "leave" : "新手关离开"
+},
+{
+    "name" : "main",
+    "enter" : "进主城",
+    "leave" : "离开主城"
+},
+{
+    "name" : "worldmap",
+    "enter" : "打开世界地图",
+    "leave" : "离开世界地图"
+},
+{
+    "name" : "battle",
+    "enter" : "战斗开始",
+    "leave" : "退出故事战斗"
+}
+]
+
+
