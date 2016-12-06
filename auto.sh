@@ -1,8 +1,8 @@
 set -e
 
-start_time="2016-12-01 00:00"
-end_time="2016-12-02 00:00"
-log_folder="2016-12-01"
+start_time="$(date +%Y-%m-%d) 00:00"
+end_time="$(date --date="1 day" +%Y-%m-%d) 00:00"
+log_folder="$(date +%Y-%m-%d)"
 
 # fetch data
 python3 fetch_users.py
