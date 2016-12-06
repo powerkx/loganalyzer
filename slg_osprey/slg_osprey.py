@@ -73,7 +73,7 @@ for f in newest_result_csv_files:
     
 # create update info file
 new_name = newest_result_csv_folder.replace(dir, "").replace("/", "")
-searchObj = re.search( r'(\d+?)-(\d+?)-(\d+?)-(\d+?)00', new_name, re.M|re.I)
+searchObj = re.search( r'(\d+?)-(\d+?)-(\d+?)-(\d\d)00', new_name, re.M|re.I)
 if searchObj:
     year = searchObj.group(1)
     month = searchObj.group(2)
